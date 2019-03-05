@@ -31,6 +31,31 @@ $(document).ready(function () {
     $(window).scroll(function () {
         animation();
     });
+    
+    
+    
+   if($('.owl-carousel').length > 0){
+       $('.product-slider').owlCarousel({
+           
+       });
+       
+       
+        $('.product-slider-newest').owlCarousel({
+           
+       });
+       
+       $('.product-slider-recommend').owlCarousel({
+           
+       });
+       
+       $('.icons-slider').owlCarousel({
+           
+       });
+       
+       $('.lead-slider').owlCarousel({
+           
+       });
+   }
 
 });//end document.ready
 
