@@ -2,7 +2,43 @@
 
 .lead-slider-wrapper{
     .lead-slider{
-        
+        li{
+            padding: 100px 0;
+            background-size: cover;
+            background-position: bottom center;
+
+            .caption{
+                max-width: 50%;
+                text-align: left;
+            }
+
+            h1{
+
+                font-size: 60px;
+                line-height: 64px;
+                color: #494949;
+                font-family: "Burbank Small";
+
+            }
+            .lead{
+                font-size: 20px;
+                line-height: 29px;
+                color: #494949;
+                font-family: "Gotham Rounded";
+            }
+            .btn{
+                border-radius: 36px;
+                height: 54px;
+                width: 175px;
+                color: #fff;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                font-weight: bold;
+                font-family: "Gotham Rounded";
+                
+            }
+        }
     }
 }
 

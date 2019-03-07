@@ -330,4 +330,35 @@ header .header-action .small-cart {
     font-size: 10px;
     text-align: center; }
 
+.icons-slider-wrapper .icons-slider .icon img {
+  width: auto !important; }
+
+.lead-slider-wrapper .lead-slider li {
+  padding: 100px 0;
+  background-size: cover;
+  background-position: bottom center; }
+  .lead-slider-wrapper .lead-slider li .caption {
+    max-width: 50%;
+    text-align: left; }
+  .lead-slider-wrapper .lead-slider li h1 {
+    font-size: 60px;
+    line-height: 64px;
+    color: #494949;
+    font-family: "Burbank Small"; }
+  .lead-slider-wrapper .lead-slider li .lead {
+    font-size: 20px;
+    line-height: 29px;
+    color: #494949;
+    font-family: "Gotham Rounded"; }
+  .lead-slider-wrapper .lead-slider li .btn {
+    border-radius: 36px;
+    height: 54px;
+    width: 175px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Gotham Rounded"; }
+
 /*# sourceMappingURL=theme.css.map */
